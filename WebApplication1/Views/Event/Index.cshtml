@@ -1,0 +1,11 @@
+﻿@model  List<Event>
+
+<div class="text-center">
+    <h1 class="display-4">Список мероприятий</h1>
+    @foreach (var Event in Model)
+    {
+
+        <p>@Event.Name @Event.IdPlace @Event.DataStart</p>
+
+    }
+</div>
